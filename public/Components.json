@@ -1,0 +1,25 @@
+{
+        "architecture" : [
+            {
+                "title" : "Architecture",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit.",
+                "image": "https://picsum.photos/id/1081/200/300",
+                "color": "red"
+            },
+            {
+                "title" : "Greenery",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit.",
+                "image": "https://picsum.photos/id/1039/200/300"
+            },
+            {
+                "title" : "Beaches",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit.",
+                "image": "https://picsum.photos/id/100/200/300"
+            },
+            {
+                "title" : "Travel & Leisure",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit.",
+                "image": "https://picsum.photos/id/1011/200/300"
+            }
+        ]
+}
