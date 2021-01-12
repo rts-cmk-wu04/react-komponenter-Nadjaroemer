@@ -2,23 +2,27 @@
         "services" : [
             {
                 "image" : "./images/On_time_delivery_icon.png",
-                "title" : "On-Time_Deivery",
-                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit"
+                "title" : "On-Time-Delivery",
+                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+                "color" : "#005AEE"
             },
             {
                 "image" : "./images/Parcels_Icon.png",
                 "title" : "Parcels",
-                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit"
+                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+                "color" : "#FFA767"
             },
             {
                 "image" : "./images/Quality_Icon.png",
                 "title" : "Quality Check",
-                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit"
+                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+                "color" : "#0AACDC"
             },
             {
                 "image" : "./images/On_time_delivery_icon.png",
                 "title" : "Customer Service",
-                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit"
+                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+                "color" : "#597AEF"
             }
         ],
 

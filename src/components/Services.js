@@ -18,7 +18,7 @@ const Services = () => {
   }, []);
 
   return (
-    <article>
+    <article className="servicesContainer">
       {data.map(function (item) {
         return (
           <ServicesCard
@@ -26,7 +26,7 @@ const Services = () => {
             title={item.title}
             image={item.image}
             text={item.text}
-            //color={item.color}
+            color={item.color}
           />
         );
       })}
