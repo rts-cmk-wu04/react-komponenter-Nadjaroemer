@@ -1,4 +1,27 @@
-{
+{       
+        "services" : [
+            {
+                "image" : "./images/On_time_delivery_icon.png",
+                "title" : "On-Time_Deivery",
+                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit"
+            },
+            {
+                "image" : "./images/Parcels_Icon.png",
+                "title" : "Parcels",
+                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit"
+            },
+            {
+                "image" : "./images/Quality_Icon.png",
+                "title" : "Quality Check",
+                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit"
+            },
+            {
+                "image" : "./images/On_time_delivery_icon.png",
+                "title" : "Customer Service",
+                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit"
+            }
+        ],
+
         "architecture" : [
             {
                 "title" : "Architecture",
