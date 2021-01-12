@@ -3,12 +3,14 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: auto;
+    background-color: #EAEAEA;
 }
 .architecture {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     padding-bottom: 2em;
+    padding-left: 2em;
 }
 .architecture__title {
     grid-area: 1 / 1 / 2 / 2;
@@ -21,7 +23,6 @@
 }
 .architecture__image {
     grid-area: 1 / 1 / 2 / 2;
-
 }
 .architecture__text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -30,5 +31,5 @@
     z-index: 1;
     color: hsl(0, 0%, 96%);
     margin-left: 1em;
-    margin-right: 6em;
+    margin-right: 2em;
 }

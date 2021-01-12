@@ -1,14 +1,14 @@
-
-import './App.css';
-import Architecture from "./components/Architecture"
+import "./App.css";
+import Architecture from "./components/Architecture";
+import Travel from "./components/Travel";
 
 function App() {
   return (
     <>
-      <Architecture/>
+      <Travel />
+      <Architecture />
     </>
   );
 }
 
 export default App;
-

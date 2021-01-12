@@ -1,4 +1,14 @@
-{
+{       
+        "travel": [
+            {
+                "category": "Travel",
+                "title" : "Surfing in Maledives",
+                "image" : "./images/surfingmaledives.png",
+                "description": "It's windy. The cool breeze og the ocean gives a sense og beauty in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming"
+            }
+
+        ],
+
         "architecture" : [
             {
                 "title" : "Architecture",
