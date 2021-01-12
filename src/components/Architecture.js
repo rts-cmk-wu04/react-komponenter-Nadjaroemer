@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 
 import Card from "./Card";
+import "./Architecture.css";
 
 const Architecture = () => {
   var [data, setData] = useState([]);
@@ -26,7 +27,7 @@ const Architecture = () => {
             title={item.title}
             image={item.image}
             text={item.text}
-            color={item.color}
+            //color={item.color}
           />
         );
       })}
