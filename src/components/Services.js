@@ -1,10 +1,9 @@
-//Architecture.js
 import { useEffect, useState } from "react";
 
-import Card from "./Card";
-import "./Architecture.css";
+import ServicesCard from "./ServicesCard";
+import "./Services.css";
 
-const Architecture = () => {
+const Services = () => {
   var [data, setData] = useState([]);
 
   useEffect(function () {
@@ -14,20 +13,20 @@ const Architecture = () => {
       })
       .then(function (data) {
         //console.log(data);
-        setData(data.architecture);
+        setData(data.services);
       });
   }, []);
 
   return (
-    <article>
+    <article className="servicesContainer">
       {data.map(function (item) {
         return (
-          <Card
+          <ServicesCard
             key={item.title}
             title={item.title}
             image={item.image}
             text={item.text}
-            //color={item.color}
+            color={item.color}
           />
         );
       })}
@@ -40,4 +39,4 @@ const Architecture = () => {
   );
 };
 
-export default Architecture;
+export default Services;
