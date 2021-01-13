@@ -1,4 +1,27 @@
-{       
+{       "collection" : [
+            {   "headline" : "Collection#10",
+                "image1"   : "./images/collection10.png",
+                "image2"   : "./images/melanie.png",
+                "title"    : "Off-the-grid experience",
+                "title2"    :"By: Melanie S."
+
+            },
+            {   "headline" : "Collection#1",
+                "image1"   : "./images/collection1.png",
+                "image2"   : "./images/saraha.png",
+                "title"    : "Shapes, triangles & fashion",
+                "title2"    :"By: Saraha F."
+
+            },
+            {   "headline" : "Collection#123",
+                "image1"   : "./images/collection123.png",
+                "image2"   : "./images/benhour.png",
+                "title"    : "In-depth architecture",
+                "title2"    :"By: Benhour."
+
+            }
+],
+        
         "outdoorExperience" : [
             {
                 "image1": "./images/outdoorsinnorway.png",

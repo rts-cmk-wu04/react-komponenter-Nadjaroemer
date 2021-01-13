@@ -1,10 +1,10 @@
 import "./App.css";
-import OutdoorExperience from "./components/OutdoorExperience";
+import Collection from "./components/Collection";
 
 function App() {
   return (
     <>
-      <OutdoorExperience />
+      <Collection />
     </>
   );
 }

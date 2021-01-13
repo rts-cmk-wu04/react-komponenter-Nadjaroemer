@@ -1,9 +1,9 @@
-//OutdoorExperience.js
+//Collection.js
 import { useEffect, useState } from "react";
-import OutdoorExperienceCard from "./OutdoorExperienceCard";
-import "./OutdoorExperience.css";
+import CollectionCard from "./CollectionCard";
+import "./Collection.css";
 
-const OutdoorExperience = () => {
+const Collection = () => {
   var [data, setData] = useState([]);
 
   useEffect(function () {
@@ -13,23 +13,21 @@ const OutdoorExperience = () => {
       })
       .then(function (data) {
         //console.log(data);
-        setData(data.outdoorExperience);
+        setData(data.collection);
       });
   }, []);
 
   return (
-    <article className="outdoorExperienceCard">
+    <article className="articleCard">
       {data.map(function (item) {
         return (
-          <OutdoorExperienceCard
+          <CollectionCard
             key={item.title}
+            headline={item.headline}
             image1={item.image1}
             image2={item.image2}
-            image3={item.image3}
-            image4={item.image4}
-            link={item.link}
-            text={item.text}
             title={item.title}
+            title2={item.title2}
           />
         );
       })}
@@ -42,4 +40,4 @@ const OutdoorExperience = () => {
   );
 };
 
-export default OutdoorExperience;
+export default Collection;
