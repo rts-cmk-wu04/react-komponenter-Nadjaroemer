@@ -1,0 +1,28 @@
+{
+        "architecture" : [
+            {
+                "title" : "Architecture",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit rutrum. Nam egestas.",
+                "image": "./images/architect.png",
+                "color": "red"
+            },
+            {
+                "title" : "Greenery",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit rutrum. Nam egestas.",
+                "image": "./images/greenery.png",
+                "color": "yellow"
+            },
+            {
+                "title" : "Beaches",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit rutrum. Nam egestas.",
+                "image": "./images/beaches.png",
+                "color" : "green"
+            },
+            {
+                "title" : "Travel & Leisure",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit rutrum. Nam egestas.",
+                "image": "./images/travel.png",
+                "color": "blue"
+            }
+        ]
+}
