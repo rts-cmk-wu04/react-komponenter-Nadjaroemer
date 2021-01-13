@@ -1,10 +1,10 @@
 import "./App.css";
-import Collection from "./components/Collection";
+import LatestNews from "./components/LatestNews";
 
 function App() {
   return (
     <>
-      <Collection />
+      <LatestNews />
     </>
   );
 }

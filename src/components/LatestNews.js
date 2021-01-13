@@ -1,9 +1,8 @@
 //Collection.js
 import { useEffect, useState } from "react";
-import CollectionCard from "./CollectionCard";
-import "./Collection.css";
+import LatestNewsCard from "./LatestNewsCard";
 
-const Collection = () => {
+const LatestNews = () => {
   var [data, setData] = useState([]);
 
   useEffect(function () {
@@ -13,21 +12,20 @@ const Collection = () => {
       })
       .then(function (data) {
         //console.log(data);
-        setData(data.collection);
+        setData(data.latestNews);
       });
   }, []);
 
   return (
-    <article className="articleCard">
+    <article className="latestNewsContainer">
       {data.map(function (item) {
         return (
-          <CollectionCard
+          <LatestNewsCard
             key={item.title}
-            headline={item.headline}
-            image1={item.image1}
-            image2={item.image2}
+            image={item.image}
             title={item.title}
-            title2={item.title2}
+            text={item.text}
+            color={item.color}
           />
         );
       })}
@@ -40,4 +38,4 @@ const Collection = () => {
   );
 };
 
-export default Collection;
+export default LatestNews;

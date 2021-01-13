@@ -21,6 +21,31 @@
 
             }
 ],
+        "latestNews" : [
+            {   "image" : "./images/nature.png",
+                "title": "Nature",
+                "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.",
+                "color" : "#40BE65"
+            },
+            {   "image" : "./images/animalkingdom.png",
+                "title": "Animal Kingdom",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.",
+                "color" : "#0072CA "
+            },
+            {   "image" : "./images/technology.png",
+                "title": "Technology",
+                "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam."
+            },
+            {   "image" : "./images/nature.png",
+                "title": "Explore",
+                "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam."
+            },
+            {   "image" : "./images/africazoo.png",
+                "title": "Africa Zoo",
+                "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam."
+            }
+
+        ],
         
         "outdoorExperience" : [
             {
