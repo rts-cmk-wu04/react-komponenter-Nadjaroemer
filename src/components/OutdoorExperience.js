@@ -1,9 +1,9 @@
+//OutdoorExperience.js
 import { useEffect, useState } from "react";
+import OutdoorExperienceCard from "./OutdoorExperienceCard";
+import "./OutdoorExperience.css";
 
-import ServicesCard from "./ServicesCard";
-import "./Services.css";
-
-const Services = () => {
+const OutdoorExperience = () => {
   var [data, setData] = useState([]);
 
   useEffect(function () {
@@ -13,20 +13,23 @@ const Services = () => {
       })
       .then(function (data) {
         //console.log(data);
-        setData(data.services);
+        setData(data.outdoorExperience);
       });
   }, []);
 
   return (
-    <article className="servicesContainer">
+    <article className="outdoorExperienceCard">
       {data.map(function (item) {
         return (
-          <ServicesCard
+          <OutdoorExperienceCard
             key={item.title}
-            title={item.title}
-            image={item.image}
+            image1={item.image1}
+            image2={item.image2}
+            image3={item.image3}
+            image4={item.image4}
+            link={item.link}
             text={item.text}
-            color={item.color}
+            title={item.title}
           />
         );
       })}
@@ -39,4 +42,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default OutdoorExperience;

@@ -1,4 +1,16 @@
 {       
+        "outdoorExperience" : [
+            {
+                "image1": "./images/outdoorsinnorway.png",
+                "image2": "./images/mountains.png",
+                "image3": "./images/island.png",
+                "image4" :"./images/beitostoelen.png",
+                "link" : "Leisure",
+                "title" : "Outdoor Experience",
+                "text"   :"It's windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming beside. "   
+
+            }
+],
         "services" : [
             {
                 "image" : "./images/On_time_delivery_icon.png",
