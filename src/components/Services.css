@@ -3,6 +3,7 @@
     grid-template-columns: repeat(4, auto);
     grid-template-rows: 1fr;
     background-color: #EAEAEA;
+    padding: 0 2em 0 2em;
 }
 .services {
     width: 220px;
@@ -14,6 +15,7 @@
     color: #FFFFFF;
     border-radius: 15px;
     padding: 2em 2em;
+    margin-bottom: 2em;
 }
 .services__title {
     padding: 0;

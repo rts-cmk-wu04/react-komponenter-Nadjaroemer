@@ -1,10 +1,9 @@
-//Architecture.js
+//Collection.js
 import { useEffect, useState } from "react";
+import CollectionCard from "./CollectionCard";
+import "./Collection.css";
 
-import Card from "./Card";
-import "./Architecture.css";
-
-const Architecture = () => {
+const Collection = () => {
   var [data, setData] = useState([]);
 
   useEffect(function () {
@@ -14,30 +13,26 @@ const Architecture = () => {
       })
       .then(function (data) {
         //console.log(data);
-        setData(data.architecture);
+        setData(data.collection);
       });
   }, []);
 
   return (
-    <article>
+    <article className="articleCard">
       {data.map(function (item) {
         return (
-          <Card
+          <CollectionCard
             key={item.title}
+            headline={item.headline}
+            image1={item.image1}
+            image2={item.image2}
             title={item.title}
-            image={item.image}
-            text={item.text}
-            color={item.color}
+            title2={item.title2}
           />
         );
       })}
-      {/* {data[0] ? (
-        <Card title={data[0].title} image={data[0].image} text={data[0].text} />
-      ) : (
-        <div>no data</div>
-      )} */}
     </article>
   );
 };
 
-export default Architecture;
+export default Collection;

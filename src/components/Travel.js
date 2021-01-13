@@ -1,10 +1,8 @@
-//Architecture.js
+//Travel.js
 import { useEffect, useState } from "react";
+import TravelCard from "./TravelCard";
 
-import Card from "./Card";
-import "./Architecture.css";
-
-const Architecture = () => {
+const Travel = () => {
   var [data, setData] = useState([]);
 
   useEffect(function () {
@@ -14,7 +12,7 @@ const Architecture = () => {
       })
       .then(function (data) {
         //console.log(data);
-        setData(data.architecture);
+        setData(data.travel);
       });
   }, []);
 
@@ -22,22 +20,18 @@ const Architecture = () => {
     <article>
       {data.map(function (item) {
         return (
-          <Card
+          <TravelCard
             key={item.title}
+            category={item.category}
             title={item.title}
             image={item.image}
-            text={item.text}
-            color={item.color}
+            description={item.description}
+            //color={item.color}
           />
         );
       })}
-      {/* {data[0] ? (
-        <Card title={data[0].title} image={data[0].image} text={data[0].text} />
-      ) : (
-        <div>no data</div>
-      )} */}
     </article>
   );
 };
 
-export default Architecture;
+export default Travel;

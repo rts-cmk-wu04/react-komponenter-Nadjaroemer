@@ -1,0 +1,34 @@
+/*Travel.css*/
+.travelCardContainer{
+    padding-left: 2em;
+    padding-bottom: 2em;
+    padding-top: 3em;
+    background-color: #EAEAEA;
+}
+.travelCard {
+    display: grid;
+    grid-template-columns: 372px;
+    grid-template-rows: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    width: 372px;
+    margin-bottom: 2em;
+    
+}
+.travelCard__title {
+    padding: 0;
+    margin: 0;
+    padding-left: 0.5em;
+    font-size: 25px;
+}
+.travelCard__category {
+    color: #33439B;
+    text-transform: uppercase;
+    padding-left: 1em;
+}
+.travelCard__text {
+    color: #7B8591;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}

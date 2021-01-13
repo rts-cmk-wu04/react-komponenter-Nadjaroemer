@@ -1,7 +1,6 @@
 /*OutdoorExperience.css*/
 .outdoorExperienceCard{
     background-color: #EAEAEA;
-    padding-bottom: 3em; /*skal fjernes igen*/
     padding-left: 2em; /*skal fjernes igen*/
     padding-top: 3rem; /*skal fjernes igen*/
  }
@@ -31,7 +30,7 @@
      margin: 2em;
  }
  .outdoorExperience__image1 {
-     margin: 2em;
+     margin: 2em 0 2em 2em;
  }
  .outdoorExperience__title {
      grid-area: 2 / 1 / 3 / 2;
