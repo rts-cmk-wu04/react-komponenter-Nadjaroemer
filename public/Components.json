@@ -73,6 +73,21 @@
             }
         ],
 
+        "lifestyle" : [
+            { 
+                "image" : "./images/foodlifestyle.png",
+                "title": "Food & Lifestyle",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.",
+                "color" : "#E44385"
+            },
+            {
+                "image" : "./images/fashion.png",
+                "title": "Fashion",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.",
+                "color" : "#0AACDC"
+            }
+        ],
+
         "latestNews" : [
             {   "image" : "./images/nature.png",
                 "title": "Nature",

@@ -1,0 +1,13 @@
+/*Lifestyle.css*/
+
+.foodAndLifestyle {
+    width: 771px;
+    height: 180px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: 1fr;
+    background-color: #FFFFFF;
+    margin-left: 2em;
+    border-radius: 12px;
+    padding: 5px;
+}
