@@ -1,6 +1,7 @@
 import "./App.css";
 import Architecture from "./components/Architecture";
 import Collection from "./components/Collection";
+import LatestNews from "./components/LatestNews";
 import OutdoorExperience from "./components/OutdoorExperience";
 import Services from "./components/Services";
 import Travel from "./components/Travel";
@@ -14,6 +15,7 @@ function App() {
       </section>
       <Services />
       <Collection />
+      <LatestNews />
       <Architecture />
     </main>
   );
