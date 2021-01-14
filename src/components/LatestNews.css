@@ -1,11 +1,59 @@
 /*LatestNews.css*/
+body {
+    background-color: #EAEAEAEA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .latestNewsContainer {
-    width: 373px;
+    width: 376px;
     height: 877px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    margin-left: 2em;
 }
 .latestNews {
-    
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
+    grid-gap: 10px;
+    margin: 2em 0.5em 1.5em 1.5em; 
+}
+.latestNews__title {
+    font-size: 11px;
+}
+.latestNews__text {
+    font-size: 16px;
+    color: #7B8591;
+}
+
+.latestNewsContainer__h1 {
+    background-color: #3F51B5 ;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 0.5em 0 0.5em 0;
+    font-size: 18px;
+}
+.moreNews {
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    text-align: center;
+    border-top: 1px solid #EAEAEAEA ;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.moreNews__button {
+    border: none;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    color: #7B8591;
+
+}
+.moreNews__button:hover {
+    color: #3F51B5;
+    font-weight: 700;
 }

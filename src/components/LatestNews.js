@@ -16,8 +16,21 @@ const LatestNews = () => {
       });
   }, []);
 
+  const fetchMoreNews = () => {
+    // const data = fetch() blabla
+    setData([
+      {
+        image: "./images/nature.png",
+        title: "Discover",
+        text:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.",
+      },
+    ]);
+  };
+
   return (
     <article className="latestNewsContainer">
+      <h1 className="latestNewsContainer__h1">Latest News</h1>
       {data.map(function (item) {
         return (
           <LatestNewsCard
@@ -29,11 +42,11 @@ const LatestNews = () => {
           />
         );
       })}
-      {/* {data[0] ? (
-        <Card title={data[0].title} image={data[0].image} text={data[0].text} />
-      ) : (
-        <div>no data</div>
-      )} */}
+      <div className="moreNews">
+        <button className="moreNews__button" onClick={fetchMoreNews}>
+          More News
+        </button>
+      </div>
     </article>
   );
 };
