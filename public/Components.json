@@ -140,5 +140,21 @@
                 "title" : "Education",
                 "color" : "#358ED7"
             }
+        ],
+        "theNewYorkTimes" : [
+            {
+                "image": "./images/newsLogo.png",
+                "title": "The New York Times",
+                "text"  :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit rutrum. Nam egestas laoreet ligula, ac elementum risus. Aliquam volupat ex eget elit venenatis, vel luctus acru pulvinar.",
+                "button" : "Read More"
+            },
+            {
+                "image": "./images/newsLogo.png",
+                "title": "The New York Times",
+                "text"  :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit rutrum. Nam egestas laoreet ligula, ac elementum risus. Aliquam volupat ex eget elit venenatis, vel luctus acru pulvinar.",
+                "button" : "Read More",
+                "backgroundImage" : "./images/newyorktimesbackground.png"
+            }
         ]
+
 }
