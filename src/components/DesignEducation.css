@@ -1,0 +1,24 @@
+/*DesignEducation.css*/
+.designEducationCard {
+    display: flex;
+}
+.designEducation {
+    width: 169px;
+    height: 171px;
+    border-radius: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    margin-left: 2em ;
+}
+.designEducation__title {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    place-self: center;
+}
+.designEducation__Icon {
+   place-self: center;
+   padding-top: 35px;
+} 

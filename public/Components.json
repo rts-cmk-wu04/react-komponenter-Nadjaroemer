@@ -127,5 +127,18 @@
                 "image": "./images/travel.png",
                 "color": "#FFFFFF"
             }
+        ],
+
+        "designAndEducation" : [
+            {
+                "image" : "./images/Desgin_Icon.png",
+                "title" : "Design",
+                "color" : "#53BBB3"
+            },
+            {
+                "image" : "./images/Education_Icon.png",
+                "title" : "Education",
+                "color" : "#358ED7"
+            }
         ]
 }

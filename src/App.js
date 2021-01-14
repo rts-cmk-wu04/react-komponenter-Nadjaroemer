@@ -1,6 +1,7 @@
 import "./App.css";
 import Architecture from "./components/Architecture";
 import Collection from "./components/Collection";
+import DesignEducation from "./components/DesignEducation";
 import LatestNews from "./components/LatestNews";
 import OutdoorExperience from "./components/OutdoorExperience";
 import Services from "./components/Services";
@@ -17,6 +18,7 @@ function App() {
       <Collection />
       <LatestNews />
       <Architecture />
+      <DesignEducation />
     </main>
   );
 }
