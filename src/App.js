@@ -5,6 +5,7 @@ import DesignEducation from "./components/DesignEducation";
 import LatestNews from "./components/LatestNews";
 import OutdoorExperience from "./components/OutdoorExperience";
 import Services from "./components/Services";
+import TheNewyYorkTimes from "./components/TheNewYorkTimes";
 import Travel from "./components/Travel";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <LatestNews />
       <Architecture />
       <DesignEducation />
+      <TheNewyYorkTimes />
     </main>
   );
 }
