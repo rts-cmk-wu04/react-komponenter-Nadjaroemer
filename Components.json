@@ -73,6 +73,21 @@
             }
         ],
 
+        "lifestyle" : [
+            { 
+                "image" : "./images/foodlifestyle.png",
+                "title": "Food & Lifestyle",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.",
+                "color" : "#E44385"
+            },
+            {
+                "image" : "./images/fashion.png",
+                "title": "Fashion",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.",
+                "color" : "#0AACDC"
+            }
+        ],
+
         "latestNews" : [
             {   "image" : "./images/nature.png",
                 "title": "Nature",
@@ -131,12 +146,30 @@
 
         "designAndEducation" : [
             {
-                "icon" : "/.images/Design_Icon.png",
-                "title" : "Design"
+                "image" : "./images/Desgin_Icon.png",
+                "title" : "Design",
+                "color" : "#53BBB3"
             },
             {
-                "icon" : "/.images/Education_Icon.png",
-                "title" : "Education"
+                "image" : "./images/Education_Icon.png",
+                "title" : "Education",
+                "color" : "#358ED7"
+            }
+        ],
+        "theNewYorkTimes" : [
+            {
+                "image": "./images/newsLogo.png",
+                "title": "The New York Times",
+                "text"  :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit rutrum. Nam egestas laoreet ligula, ac elementum risus. Aliquam volupat ex eget elit venenatis, vel luctus acru pulvinar.",
+                "button" : "Read More"
+            },
+            {
+                "image": "./images/newsLogo.png",
+                "title": "The New York Times",
+                "text"  :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit rutrum. Nam egestas laoreet ligula, ac elementum risus. Aliquam volupat ex eget elit venenatis, vel luctus acru pulvinar.",
+                "button" : "Read More",
+                "backgroundImage" : "./images/newyorktimesbackground.png"
             }
         ]
+
 }
