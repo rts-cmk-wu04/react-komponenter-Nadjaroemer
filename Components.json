@@ -1,0 +1,142 @@
+{      
+     "travel": [
+    {
+        "category": "Travel",
+        "title" : "Surfing in Maledives",
+        "image" : "./images/surfingmaledives.png",
+        "description": "It's windy. The cool breeze og the ocean gives a sense og beauty in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming"
+    }
+
+    ],
+
+    "outdoorExperience" : [
+        {
+            "image1": "./images/outdoorsinnorway.png",
+            "image2": "./images/mountains.png",
+            "image3": "./images/island.png",
+            "image4" :"./images/beitostoelen.png",
+            "link" : "Leisure",
+            "title" : "Outdoor Experience",
+            "text"   :"It's windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming beside. "   
+
+        }
+    ],
+        "services" : [
+            {
+                "image" : "./images/On_time_delivery_icon.png",
+                "title" : "On-Time-Delivery",
+                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+                "color" : "#005AEE"
+            },
+            {
+                "image" : "./images/Parcels_Icon.png",
+                "title" : "Parcels",
+                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+                "color" : "#FFA767"
+            },
+            {
+                "image" : "./images/Quality_Icon.png",
+                "title" : "Quality Check",
+                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+                "color" : "#0AACDC"
+            },
+            {
+                "image" : "./images/On_time_delivery_icon.png",
+                "title" : "Customer Service",
+                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
+                "color" : "#597AEF"
+            }
+        ],
+
+        "collection" : [
+            {   
+                "headline" : "Collection#10",
+                "image1"   : "./images/collection10.png",
+                "image2"   : "./images/melanie.png",
+                "title"    : "Off-the-grid experience",
+                "title2"    :"By: Melanie S."
+
+            },
+            {   "headline" : "Collection#1",
+                "image1"   : "./images/collection1.png",
+                "image2"   : "./images/saraha.png",
+                "title"    : "Shapes, triangles & fashion",
+                "title2"    :"By: Saraha F."
+
+            },
+            {   "headline" : "Collection#123",
+                "image1"   : "./images/collection123.png",
+                "image2"   : "./images/benhour.png",
+                "title"    : "In-depth architecture",
+                "title2"    :"By: Benhour."
+
+            }
+        ],
+
+        "latestNews" : [
+            {   "image" : "./images/nature.png",
+                "title": "Nature",
+                "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.",
+                "color" : "#40BE65"
+            },
+            {   "image" : "./images/animalkingdom.png",
+                "title": "Animal Kingdom",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.",
+                "color" : "#0072CA "
+            },
+            {   "image" : "./images/technology.png",
+                "title": "Technology",
+                "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.",
+                "color" : "#D9A34A"
+            },
+            {   "image" : "./images/nature.png",
+                "title": "Explore",
+                "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.",
+                "color": "#FF4967"
+            },
+            {   "image" : "./images/africazoo.png",
+                "title": "Africa Zoo",
+                "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.",
+                "color" : "#0072CA"
+            }
+
+        ],
+
+        "architecture" : [
+            {
+                "title" : "Architecture",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit rutrum. Nam egestas.",
+                "image": "./images/architect.png",
+                "color": "#FFD430"
+            },
+            {
+                "title" : "Greenery",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit rutrum. Nam egestas.",
+                "image": "./images/greenery.png",
+                "color": "#FFFFFF"
+            },
+            {
+                "title" : "Beaches",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit rutrum. Nam egestas.",
+                "image": "./images/beaches.png",
+                "color" : "#FFFFFF"
+            },
+            {
+                "title" : "Travel & Leisure",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit rutrum. Nam egestas.",
+                "image": "./images/travel.png",
+                "color": "#FFFFFF"
+            }
+        ],
+
+        "designAndEducation" : [
+            {
+                "icon" : "/.images/Design_Icon.png",
+                "title" : "Design"
+            },
+            {
+                "icon" : "/.images/Education_Icon.png",
+                "title" : "Education"
+            }
+        ]
+}
