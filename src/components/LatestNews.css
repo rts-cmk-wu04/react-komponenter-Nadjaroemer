@@ -16,7 +16,8 @@ body {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
     grid-gap: 10px;
-    margin: 2em 0.5em 1.5em 1.5em; 
+    margin: 1em; 
+    place-items: center;
 }
 .latestNews__title {
     font-size: 11px;
