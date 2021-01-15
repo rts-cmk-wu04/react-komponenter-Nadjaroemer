@@ -19,12 +19,18 @@ function App() {
       </section>
       <Services />
       <Collection />
-      <MustSeePlaces />
-      <Lifestyle />
-      <LatestNews />
-      <Architecture />
+      <div className="appSectionTo">
+        <div>
+          <MustSeePlaces />
+          <Lifestyle />
+        </div>
+        <LatestNews />
+      </div>
+      <section className="appSectionThree">
+        <Architecture />
+        <TheNewyYorkTimes />
+      </section>
       <DesignEducation />
-      <TheNewyYorkTimes />
     </main>
   );
 }

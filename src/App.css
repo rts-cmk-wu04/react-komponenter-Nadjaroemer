@@ -3,3 +3,11 @@
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr;
 }
+
+.appSectionTo {
+  display: flex;
+
+}
+.appSectionThree {
+ display: flex;
+}

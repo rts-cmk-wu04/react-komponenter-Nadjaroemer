@@ -4,6 +4,7 @@
     grid-template-rows: auto;
     background-color: #EAEAEA;
     padding-left: 2em;
+    padding-top: 2em;
 }
 .architecture {
     display: grid;

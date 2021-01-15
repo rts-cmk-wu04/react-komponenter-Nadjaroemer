@@ -26,6 +26,24 @@ const LatestNews = () => {
         text:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.",
       },
+      {
+        image: "./images/nature.png",
+        title: "Discover",
+        text:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.",
+      },
+      {
+        image: "./images/nature.png",
+        title: "Discover",
+        text:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.",
+      },
+      {
+        image: "./images/nature.png",
+        title: "Discover",
+        text:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam.",
+      },
     ]);
   };
 
