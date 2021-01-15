@@ -1,0 +1,50 @@
+/*MustSeePlaces.css*/
+
+.mustSeePlaces {
+    display: grid;
+    grid-template-columns: 771px;
+    grid-template-rows: 1fr;
+    padding-left: 2em;
+    padding-bottom: 2em;
+}
+.mustSeePlaces__logo {
+    grid-area: 1 / 1 / 2 / 2;
+    z-index:1;
+    width: 23px;
+    height: 23px;
+    padding: 3em 1.5em;
+}
+.mustSeePlaces__title {
+    grid-area: 1 / 1 / 2 / 2;
+    z-index: 1;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 4em 6em;
+    font-size: 11px;
+}
+.mustSeePlaces__summer {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.mustSeePlaces__heart {
+    grid-area: 1 / 1 / 2 / 2;
+    z-index: 1;
+    justify-self: end;
+    padding: 3em;
+}
+.mustSeePlaces__headline {
+    grid-area: 1 / 1 / 2 / 2;
+    align-self: center;
+    padding-right: 20em;
+    padding-top: 13em;
+    padding-left: 1em;
+}
+.mustSeePlaces__h1 {
+    font-size: 42px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+.mustSeePlaces__text {
+    color: #FFFFFF;
+    font-size: 16px;
+}
