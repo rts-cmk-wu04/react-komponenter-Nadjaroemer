@@ -1,0 +1,27 @@
+.newsDigest {
+    text-align: center;
+    border-bottom: 1px solid #EAEAEAEA;
+    padding: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.newsDigest__h1 {
+    background-color: #3CA773 ;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 0.5em 0 0.5em 0;
+    font-size: 18px;
+    margin: 0;
+}
+.newsDigest__h2 {
+    font-size: 18px;
+}
+.newsDigest__text {
+    font-size: 16px;
+    color: #7B8591;
+}

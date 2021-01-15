@@ -5,6 +5,7 @@ import DesignEducation from "./components/DesignEducation";
 import LatestNews from "./components/LatestNews";
 import Lifestyle from "./components/Lifestyle";
 import MustSeePlaces from "./components/MustSeePlaces";
+import NewsDigest from "./components/NewsDigest";
 import OutdoorExperience from "./components/OutdoorExperience";
 import Services from "./components/Services";
 import TheNewyYorkTimes from "./components/TheNewYorkTimes";
@@ -28,6 +29,7 @@ function App() {
       </div>
       <section className="appSectionThree">
         <Architecture />
+        <NewsDigest />
         <TheNewyYorkTimes />
       </section>
       <DesignEducation />
