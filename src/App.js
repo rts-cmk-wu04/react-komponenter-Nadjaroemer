@@ -13,7 +13,7 @@ import Travel from "./components/Travel";
 
 function App() {
   return (
-    <main>
+    <main className="main">
       <section className="appSectionOne">
         <Travel />
         <OutdoorExperience />
