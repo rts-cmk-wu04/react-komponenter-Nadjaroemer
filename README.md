@@ -59,3 +59,5 @@ Når du vil teste om GitHub pages virker, skal du
 * Under GitHub pages skal du vælge den mappe, som bliver oprettet, når du kører `npm run build`
 
 Husk at det godt kan tage nogle timer for GitHub pages at virke, så lad være med at vente til sidste øjeblik - test meget gerne undervejs.
+
+Link : https://rts-cmk-wu04.github.io/react-komponenter-Nadjaroemer/
