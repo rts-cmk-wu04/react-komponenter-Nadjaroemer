@@ -72,6 +72,16 @@
 
             }
         ],
+        "mustSeePlaces" : [
+            { 
+                "image1": "./images/newsLogo.png",
+                "image2" : "./images/summer.png",
+                "image3"  : "./images/heart.png",
+                "title": "The New York Times",
+                "headline" : "Must see places for summer",
+                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit rutrum."
+            }
+        ],
 
         "lifestyle" : [
             { 
@@ -115,6 +125,28 @@
                 "color" : "#0072CA"
             }
 
+        ],
+        "newsDigest" : [
+            {
+                "image": "./images/one.png",
+                "title": "Technology",
+                "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit."
+            },
+            {
+                "image": "./images/to.png",
+                "title": "Nature",
+                "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit."
+            },
+            {
+                "image": "./images/three.png",
+                "title": "Design",
+                "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit."
+            },
+            {
+                "image": "./images/four.png",
+                "title": "Development",
+                "text" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit."
+            }
         ],
 
         "architecture" : [
