@@ -72,6 +72,16 @@
 
             }
         ],
+        "mustSeePlaces" : [
+            { 
+                "image1": "./images/newsLogo.png",
+                "image2" : "./images/summer.png",
+                "image3"  : "./images/heart.png",
+                "title": "The New York Times",
+                "headline" : "Must see places for summer",
+                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit rutrum."
+            }
+        ],
 
         "lifestyle" : [
             { 
