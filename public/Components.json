@@ -74,11 +74,22 @@
         ],
         "mustSeePlaces" : [
             { 
-                "image1": "./images/newsLogo.png",
-                "image2" : "./images/summer.png",
-                "image3"  : "./images/heart.png",
+    
+                "image" : "./images/summer.png", 
                 "title": "The New York Times",
                 "headline" : "Must see places for summer",
+                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit rutrum."
+            },
+            { 
+                "image" : "./images/summerBlackWhite.png",
+                "title": "The New York Times",
+                "headline" : "Must see places for winter",
+                "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit rutrum."
+            },
+            { 
+                "image" : "./images/summerYellow.png",
+                "title": "The New York Times",
+                "headline" : "Must see places for autumn",
                 "text"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hedrerit rutrum."
             }
         ],
